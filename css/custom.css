@@ -1,0 +1,197 @@
+/*!
+ * Custom CSS http://segonzalezr.github.io/cv/
+ */
+
+@import url(http://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,300italic,400italic);
+
+@import url(http://fonts.googleapis.com/css?family=Open+Sans:400,700,300);
+
+/*!
+ *  Simple - Minimal, responsive resume
+ *  Copyright 2013 prettyspoon.com
+ *  Author: Uvis Grinfelds
+ */
+/* Borders and Spacing */
+body {
+  font-family: Source Sans Pro, Open Sans, Helvetica, Arial, sans-serif;
+  background-color: #f4f4f4;
+  font-weight: 300;
+}
+
+
+section.container{
+  background-color: #fff;
+  padding: 25px 40px;
+  margin: 20px auto;
+}
+
+
+/* Fuentes */
+h1,
+h2,
+h3,
+h4,
+h5 {
+  font-family: Open Sans, Source Sans Pro, Helvetica, Arial, sans-serif;
+  font-weight: 400;
+  color: #000;
+  line-height: 100%;
+}
+h2{
+  font-size: 21px;
+}
+h3 {
+  font-size: 20px ;
+}
+h4 {
+  font-size: 16px ;
+}
+h5 {
+  font-size: 12px;
+}
+strong {
+  font-weight: 400;
+}
+p {
+  text-indent: 22px;
+  font-size: 16px;
+  margin: 0px;
+}
+.auth {
+  font-size: 13px;
+}
+
+/*! Header 
+*/
+div.photo .perfil{
+  border: 4px solid #e5e5e5;
+  border-radius: 100%;
+}
+
+.info h1{
+  padding-top: 20px;
+  font-size: 33px;
+  line-height: 40px;
+  font-weight: 700;
+  text-align: center;
+}
+.info h2{
+  font-size: 21px;
+  text-align: center;
+}
+
+.info-personal{ margin-top: 20px;}
+.info-personal > .row > .col-md-3{
+  font-weight: bold;
+  /*text-align: right;*/
+  margin-right: -20px;
+}
+
+.social li {
+  display: inline-block;
+  margin: 0 10px;
+  padding: 10px 0px;
+}
+
+.social li a {
+  display: block;
+  font-size: 18px;
+  text-align: center;
+}
+table.colored {
+  width: 100%;
+  border-spacing: 0 0;
+}
+table.colored tr td {
+  padding-top: 4px;
+}
+
+.cl1 { background-color: #6ca338;}
+.cl2 { background-color: #4ca5d0;}
+.cl4 { background-color: #ffbc38;}    
+.cl5 { background-color: #e82c0c;}
+.cl3 { background-color: #6ca338;}
+
+header .section_title{
+  padding: 12px;
+  color: #f4f4f4;
+  margin-bottom: 25px;
+}
+
+
+
+h3.category_title{
+  background-color: #373737;
+  color: #FFF;
+  padding: 5px 30px;
+  margin-top: 0px;
+  border-radius: 5px;
+}
+.category_title_icon{
+  border-radius: 3px;
+  position: absolute;
+  display: block;
+  width: 30px;
+  height: 30px;
+  background: url(http://www.gonzalezr.cl/wp-content/themes/cv/images/section_marker.png) 9px 11px no-repeat;
+  background-color: #000000;
+  content: "";
+  top: 0;
+  left: 0;
+}
+
+.post_header .post_title a {
+  color: #373737;
+}
+
+.progress-bar-custom1 {
+  background-color: #525252;
+}
+
+h2.widget_subtitle{
+  font-size: 19px;
+  margin-top: 10px;
+  margin-bottom: 20px;
+}
+
+.resume_content{
+  background: url(http://www.gonzalezr.cl/wp-content/themes/cv/images/line_hor.png) center 0 repeat-x;
+  margin-top: 15px;
+  margin-bottom: 20px;
+  padding: 5px;
+}
+.resume_content .post_title{
+  padding-left: 25px;
+  font-size: 20px;
+}
+.resume_content .post_title a{
+  font-weight: bold;
+}
+  .resume_content .post_title a:hover{
+    text-decoration: none;
+  }
+i.post_subtitle{
+  font-size: 18px;
+}
+.resume_content div.resume{
+  margin-top: 15px;
+}
+
+.resume_period{
+  text-align: right;;
+}
+
+.post_title_icon {
+  position: absolute;
+  width: 15px;
+  height: 15px;
+  background: url(http://www.gonzalezr.cl/wp-content/themes/cv/images/post_title_icon.png) 5px no-repeat;
+  background-color: #000000;
+  margin-top: 8px;
+  left: 0;
+  border-radius: 15px;
+}
+
+footer{
+  text-align: right;
+}
