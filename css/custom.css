@@ -45,6 +45,7 @@ h3 {
 }
 h4 {
   font-size: 16px ;
+  line-height: initial;
 }
 h5 {
   font-size: 12px;
@@ -57,7 +58,7 @@ p {
   margin: 0px;
 }
 .auth {
-  font-size: 13px;
+  font-size: 15px;
 }
 
 /*! Header 
@@ -193,4 +194,11 @@ i.post_subtitle{
 
 footer{
   text-align: right;
+}
+
+@media (min-width: 992px) { 
+  .col-md-6 {
+    width: auto;
+    min-width: 50%;;
+  }
 }
