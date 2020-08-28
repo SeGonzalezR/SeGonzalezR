@@ -87,6 +87,9 @@ div.photo .perfil{
   margin-right: -20px;
 }
 
+.social {
+  padding: 0px;
+}
 .social li {
   display: inline-block;
   margin: 0 10px;
